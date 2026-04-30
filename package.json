@@ -1,0 +1,24 @@
+{
+  "name": "bullmq-tut-2",
+  "version": "1.0.0",
+  "description": "```js bullmq-express-app/ ├── src/ │   ├── config/ │   │   └── redis.js │   ├── queues/ │   │   └── bookingQueue.js │   ├── workers/ │   │   └── bookingWorker.js │   ├── controllers/ │   │   └── bookingController.js │   ├── routes/ │   │   └── bookingRoutes.js │   ├── app.js │   └── server.js ├── .env ├── package.json ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "worker": "node src/workers/bookingWorker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bullmq": "^5.76.4",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

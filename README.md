@@ -15,6 +15,9 @@ bullmq-express-app/
 │   │   └── bookingRoutes.js
 │   ├── app.js
 │   └── server.js
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
 ├── .env
 ├── package.json
 ```

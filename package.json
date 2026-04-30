@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
-    "worker": "node src/workers/bookingWorker.js"
+    "worker": "node src/workers/bookingWorker.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
